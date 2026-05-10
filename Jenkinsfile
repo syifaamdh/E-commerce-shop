@@ -47,7 +47,7 @@ pipeline {
         // ================= CHECKOUT =================
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/syifaamdh/E-commerce-Complete-Flutter-UI.git'
+                git branch: 'master', url: 'https://github.com/syifaamdh/E-commerce-shop.git'
             }
         }
 
